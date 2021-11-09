@@ -2,7 +2,15 @@
 
 #### https://bruvscord.herokuapp.com
 
-## Get Messages
+1. [Get Messages](#get-messages)
+2. [Send Message](#send-message)
+3. [Get Users](#get-users)
+4. [Get Specifc User](#get-specific-user)
+5. [Add User](#add-user)
+
+<br></br>
+
+## Get Messages <a name="get-messages"></a>
 
 Get all of the messages that have been sent over Bruvscord. Users can choose to have messages sent in ascending or descending order, and can specify the number of messages they would like.
 
@@ -55,7 +63,7 @@ curl https://bruvscord.herokuapp.com/messages?num=10&order=desc # last 10 messag
 <br></br>
 
 
-## Send Message
+## Send Message <a name="send-message"></a>
 
 Send a message by specifying message content and the sender.
 
@@ -77,7 +85,7 @@ curl -X POST https://bruvscord.herokuapp.com/messages/add/gr3g -d "message=bruv"
 
 <br><br/>
 
-## Get Users
+## Get Users <a name="get-users"></a>
 
 Get all users registered with Bruvscord.
 
@@ -93,7 +101,7 @@ curl https://bruvscord.herokuapp.com/users
 
 <br></br>
 
-## Get Specific User
+## Get Specific User <a name="get-specific-user"></a>
 
 Get a specific user by searching with their name.
 
@@ -115,7 +123,7 @@ curl https://bruvscord.herokuapp.com/users/joe
 
 <br></br>
 
-## Add User
+## Add User <a name="add-user"></a>
 
 Add a user to Bruvscord with a name and a color.
 
